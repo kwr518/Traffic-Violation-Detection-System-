@@ -67,23 +67,21 @@ graph TD
 
 ```bash
 Traffic-Violation-System/
-├── frontend/                # React 클라이언트 소스 (Next.js)
-│   ├── src/components/      # UI 컴포넌트
-│   ├── src/pages/           # 라우팅 페이지 (Support.jsx, Login.jsx 등)
+├── frontend/                # React/Next.js 클라이언트
+│   ├── src/                 # 소스 코드 (About.jsx, Support.jsx 등)
+│   ├── public/              # 정적 자산
 │   ├── Dockerfile           # 프론트엔드 빌드 설정
-│   └── ...
+│   └── package.json         # 의존성 관리
 ├── backend-spring/          # Spring Boot 메인 서버
-│   ├── src/main/java/       # Controller, Service, DTO, Entity
-│   ├── src/main/resources/  # application.properties (DB, JPA 설정)
-│   ├── Dockerfile           # 백엔드 빌드 설정 (JDK 17)
-│   └── ...
+│   ├── src/                 # Java 소스 (Controller, Service, Entity)
+│   ├── build.gradle         # 빌드 설정 및 의존성
+│   └── Dockerfile           # 백엔드 빌드 설정
 ├── backend-ai/              # FastAPI AI 서버
-│   ├── app/routers/         # AI 분석 및 인증(Auth) 라우터
-│   ├── app/models/          # YOLO 가중치 파일 (.pt) 및 학습 모델
+│   ├── app/                 # AI 분석 및 인증 라우터
+│   ├── video_storage/       # 영상 저장소
 │   ├── Dockerfile           # AI 서버 빌드 설정 (OpenCV, TF 포함)
-│   └── ...
-├── docker-compose.yml       # ⭐️ 전체 시스템 오케스트레이션 설정 파일
-└── README.md                # 프로젝트 문서
+│   └── requirements.txt     # Python 라이브러리 목록
+└── docker-compose.yml       # 전체 시스템 오케스트레이션
 ```
 
 ---
