@@ -160,13 +160,3 @@ Traffic-Violation-System/
    * **FastAPI Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
-
-## 👨‍💻 8. 팀원 및 역할 (Team)
-
-| 이름 | 역할 | 담당 업무 |
-|:---:|:---:|:---|
-| **본인 이름** | **Full Stack / Infra** | 아키텍처 설계, Docker 인프라 구축, OAuth2 연동, 트러블슈팅 총괄 |
-| 팀원1 | Backend / AI | FastAPI 서버 구현, YOLO/LSTM 모델 학습 및 최적화 |
-| 팀원2 | Backend / RPA | Spring Boot API 개발, Selenium 자동 신고 봇 구현 |
-| 팀원3 | Frontend | React UI/UX 디자인, 대시보드 및 마이페이지 구현 |
-| 팀원4 | Embedded / IoT | 라즈베리파이 영상 처리 및 통신 모듈 개발 |
