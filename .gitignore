@@ -1,0 +1,137 @@
+# ==========================
+# 1. 보안 및 환경설정 (가장 중요!)
+# ==========================
+.env
+.env.*
+! .env.example
+*.key
+*.pem
+
+# ==========================
+# 2. OS 및 에디터 (공통)
+# ==========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+
+# ==========================
+# 3. Frontend (React/Node)
+# ==========================
+# 의존성 패키지 (모든 폴더의 node_modules 무시)
+**/node_modules/
+
+# 빌드 결과물
+frontend/build/
+frontend/dist/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+
+# 프론트엔드 로그
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ==========================
+# 4. Backend (Spring Boot/Gradle)
+# ==========================
+backend-spring/.gradle/
+backend-spring/build/
+backend-spring/out/
+backend-spring/bin/
+
+# 이클립스/VSCode 등 자바 설정 파일
+backend-spring/.settings/
+backend-spring/.classpath
+backend-spring/.project
+backend-spring/.vscode/
+
+# 백엔드 보안 설정 파일 (비밀번호 포함) - 필수 추가!
+backend-spring/src/main/resources/application-secret.properties
+
+# 스프링 부트 설정 파일 중 비밀번호가 있는 경우 (선택사항)
+# backend-spring/src/main/resources/application-secret.yml
+
+# ==========================
+# 5. Database & Etc
+# ==========================
+database/**/*.log
+database/**/*.tmp
+# ==========================
+# 1. 보안 및 환경변수 (절대 업로드 금지!)
+# ==========================
+.env
+.env.*
+! .env.example
+*.key
+*.pem
+secrets.json
+
+# ==========================
+# 2. Python 필수 무시 항목
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================
+# 3. 가상환경 (Virtual Environments)
+# ==========================
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# ==========================
+# 4. AI/Deep Learning (대용량 파일 무시)
+# ==========================
+# 모델 가중치 파일 (GitHub 용량 제한 초과 방지)
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.onnx
+*.tflite
+*.ckpt
+*.pb
+
+# 데이터셋 폴더 (필요시 주석 해제)
+# datasets/
+# data/
+
+# 학습 로그 및 체크포인트
+runs/
+logs/
+tensorboard/
+wandb/
+.ipynb_checkpoints/
+
+# ==========================
+# 5. IDE 및 OS 설정
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
