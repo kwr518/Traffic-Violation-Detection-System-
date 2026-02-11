@@ -1,4 +1,4 @@
-# 🚦 Road Guardian (도로 위법 차량 자동 탐지 및 원스톱 신고 플랫폼)
+# 🚦 Road Guardian (도로 위법 차량 자동 탐지 및 원스톱 신고 시스템)
 
 ![Project Status](https://img.shields.io/badge/Status-Active-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4-6DB33F?logo=springboot&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-0.95-009688?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
 
