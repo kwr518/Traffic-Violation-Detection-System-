@@ -22,7 +22,7 @@
 
 ## 🏗 2. 시스템 아키텍처 (System Architecture)
 
-본 프로젝트는 **MSA(Microservices Architecture)**를 지향하며, **Docker Compose**를 통해 Frontend, Backend, AI Server, Database가 유기적으로 연동됩니다.
+본 프로젝트는 MSA(Microservices Architecture)를 지향하며, **Docker Compose**를 통해 Frontend, Backend, AI Server, Database가 유기적으로 연동됩니다.
 
 ### 🔄 데이터 처리 파이프라인
 1.  **Edge (Raspberry Pi):** 도로 주행 영상 촬영 및 1차 필터링 (번호판 식별 가능 영상 선별)
